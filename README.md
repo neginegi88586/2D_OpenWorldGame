@@ -14,7 +14,7 @@ cd 2D_OpenWorldGame
 git remote add root_branch https://github.com/neginegi88586/2D_OpenWorldGame.git
 git remote -v
 ```
-    	4. 最後の行を実行したときに出てきたログで、Fork元リポジトリをFork先リモートリポジトリに登録できたか確認する。
+ 5. 最後の行を実行したときに出てきたログで、Fork元リポジトリをFork先リモートリポジトリに登録できたか確認する。
 
 2. ローカルブランチの新規作成
 	1. GitBashで以下の2行のコードを実行する。
@@ -22,7 +22,7 @@ git remote -v
 git checkout -b <新規ブランチ名>
 git branch
 ```
-    	2. 最後の行を実行したときに出てきたログで、作成したブランチ名が存在するか確認する。
+ 2. 最後の行を実行したときに出てきたログで、作成したブランチ名が存在するか確認する。
      
 3. Fork元の変更取得・適用
 	1. GitBashで以下の2行のコードを実行する。

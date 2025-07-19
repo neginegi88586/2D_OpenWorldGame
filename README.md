@@ -39,7 +39,6 @@ git add -A
 git commit -m "任意の変更点タイトル"
 git push origin <設定済みのブランチ名>
 ```
-
 	2. ブランチ作成後の初回以外、GitBashで以下の3行のコードを実行する。
 ```Bash:Bash
 git add -A

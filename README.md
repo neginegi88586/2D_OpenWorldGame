@@ -9,9 +9,9 @@
 	3. リポジトリ内のプロジェクトを保存したいフォルダーでGitBashを立ち上げる。
 	4. GitBashで以下の4行のコードを実行する。
 ```Bash:Bash
-git clone https://github.com/<あなたのGitHubユーザー名>/2D\_OpenWorldGame.git
-cd 2D\_OpenWorldGame
-git remote add root\_branch https://github.com/neginegi88586/2D\_OpenWorldGame.git
+git clone https://github.com/<あなたのGitHubユーザー名>/2D_OpenWorldGame.git
+cd 2D_OpenWorldGame
+git remote add root_branch https://github.com/neginegi88586/2D_OpenWorldGame.git
 git remote -v
 ```
     	4. 最後の行を実行したときに出てきたログで、Fork元リポジトリをFork先リモートリポジトリに登録できたか確認する。
@@ -28,8 +28,8 @@ git branch
 	1. GitBashで以下の2行のコードを実行する。
 
 ```Bash:Bash
-git fetch root\_branch
-git merge root\_branch/<設定済みのブランチ名>
+git fetch root_branch
+git merge root_branch/<設定済みのブランチ名>
 ```
 
 4. 作成した変更をFork先リモートリポジトリにpush

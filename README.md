@@ -17,7 +17,7 @@
 git clone https://github.com/<あなたのGitHubユーザー名>/2D_OpenWorldGame.git
 cd 2D_OpenWorldGame
 git remote add root_branch https://github.com/neginegi88586/2D_OpenWorldGame.git
-git remote set-url origin https://<あなたのGitHubユーザー名>:<個人アクセストークン>@github.com/<あなたのGitHubユーザー名>/2D_OpenWorldGame.git
+git remote set-url root_branch https://<あなたのGitHubユーザー名>:<個人アクセストークン>@github.com/<あなたのGitHubユーザー名>/2D_OpenWorldGame.git
 git remote -v
 ```
 10. 5行目を実行したときに出てきたログで、Fork元リポジトリをFork先リモートリポジトリに登録できたか確認する。

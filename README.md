@@ -17,7 +17,7 @@
 git clone https://github.com/<あなたのGitHubユーザー名>/2D_OpenWorldGame.git
 cd 2D_OpenWorldGame
 git remote add root_branch https://github.com/neginegi88586/2D_OpenWorldGame.git
-git remote set-url root_branch https://<あなたのGitHubユーザー名>:<個人アクセストークン>@github.com/<あなたのGitHubユーザー名>/2D_OpenWorldGame.git
+git remote set-url origin https://<あなたのGitHubユーザー名>:<個人アクセストークン>@github.com/<あなたのGitHubユーザー名>/2D_OpenWorldGame.git
 git remote -v
 ```
 10. 5行目を実行したときに出てきたログで、Fork元リポジトリをFork先リモートリポジトリに登録できたか確認する。
@@ -43,7 +43,7 @@ git merge root_branch/<設定済みのブランチ名>
 ```Bash:Bash
 git add -A
 git commit -m "任意の変更点タイトル"
-git push root_branch <設定済みのブランチ名>
+git push origin <設定済みのブランチ名>
 ```
 2. ブランチ作成後の初回以外、GitBashで以下の3行のコードを実行する。
 ```Bash:Bash
